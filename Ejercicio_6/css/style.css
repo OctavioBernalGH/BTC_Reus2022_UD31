@@ -1,0 +1,29 @@
+body{
+    background:linear-gradient(black,gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    text-align: center;
+}
+
+.container-fluid{
+    text-align: center;
+    margin-top: 3.4em;
+    border-radius: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 250px;
+    background: linear-gradient(red,gray);
+}
+
+*{
+    color: white;
+    font-size: 96px;
+}
+
+b:hover{
+    font-size: 150px;
+    color: yellow;
+}
