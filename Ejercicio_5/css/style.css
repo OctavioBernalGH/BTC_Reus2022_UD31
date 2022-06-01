@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(rgb(150, 147, 147),rgb(248, 252, 245));
+    background-repeat: no-repeat;
+    background-size: fixed;
+    background-position: center;
+}
+
+.imgPequeña{
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+#miniaturas{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+}
+
+#panoramica{
+    width: 1000px;
+    height: 800px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgGrande{
+    width: 500px;
+    height: 500px;
+}
+
+#piePagina{
+    margin-top: 600px;
+}
